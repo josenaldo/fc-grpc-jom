@@ -32,7 +32,6 @@ func (c *CategoryService) CreateCategory(ctx context.Context, req *pb.CreateCate
 			Description: category.Description,
 	},
 
-
 	categoryResponse := &pb.CategoryResponse{
 		Category: &category,
 	}
